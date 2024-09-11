@@ -1,0 +1,110 @@
+* {
+    text-transform: none;
+}
+
+header {
+    margin: 0px auto;
+    width: 900px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+}
+
+section.izquierda {
+    display: flex;
+}
+
+section.derecha {
+    display: flex
+}
+
+section.derecha div {
+    padding-left: 10px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+main {
+    width: 900px;
+    margin: 0px auto
+}
+
+main p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.tituloBlog {
+    background-image: url("./img/hr-img.png");
+    background-repeat: repeat-x;
+    padding-top: 24px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.print{
+    display: flex;
+}
+
+.logotipo {
+    font-weight: bolder;
+}
+
+section.cuerpo p {
+    text-indent: 45px;
+    line-height: 1.5;
+    margin-top: 15px;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: auto auto;
+    list-style-type: square;
+    margin: 20px auto;
+    font-size: 24px;
+    justify-content: space-evenly;
+    background-image: url("./img/list-bg.png");
+    height: 300px;
+}
+
+.autor {
+    background-image: url("./img/hr-img.png");
+    background-repeat: repeat-x;
+    padding-top: 24px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3%;
+    gap: 25px;
+}
+
+.autor h3 {
+font-size: 24px;
+}
+
+.autor p {
+    font-size: 18px;
+    text-wrap: wrap;
+}
+
+button {
+    width: 200px;
+    font-size: 18px;
+    background-color: coral;
+    color: white;
+    border: 1px solid gray;
+}
